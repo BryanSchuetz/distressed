@@ -1,1 +1,1 @@
-<p>There is no ignorance and no end to ignorance. There is no old age and death and no end to old age and death. There is no suffering and no end to suffering, no path to follow. There is no wisdom and no attainment of wisdom.</p>
+<p>There is no ignornace, and no end to ignorance. There is no old age and death, and no end to old age and death. There is no suffering, no cause of suffering, no end to suffering, no path to follow. There is no attainment of wisdom, and no wisdom to attain.</p>
