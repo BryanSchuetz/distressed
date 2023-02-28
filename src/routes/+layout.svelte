@@ -12,7 +12,7 @@
       <p class="md:text-center">First, we shape our tools—then our tools shape us.</p>
     </section>
   </header>
-  <main class="pl-4">
+  <main class="pl-4"> 
     <section class="prose">
       <slot />
     </section>
