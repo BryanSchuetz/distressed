@@ -15,8 +15,8 @@ section.prose{
 }
 main{
   grid-area: main;
-
 }
+
 footer{
   grid-area: footer;
 
@@ -24,11 +24,23 @@ footer{
 aside{
   grid-area: sidebar;
 }
-.wrap{
+  .wrap{
+  grid-template-areas:
+  "header header header header"
+  "main main main main"
+  "footer footer footer footer";
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 3rem;
+  }
+  
+@media screen and (min-width: 1024px) {
+  .wrap{
   grid-template-areas:
   "header header header header"
   "main main main sidebar"
   "footer footer footer footer";
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1rem;
+  gap: 3rem;
+  }
 }
+

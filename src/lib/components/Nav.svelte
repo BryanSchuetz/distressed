@@ -1,8 +1,11 @@
+<script>
+
+</script>
 
 <nav class="mt-5 bg-white" aria-label="Sidebar">
   <a href="#" class="hover:text-gray-600 bg-gray-100 hover:bg-gray-100 group flex items-center px-2 py-2 text-sm font-medium rounded-l-md">
-    <svg class="mr-3 flex-shrink-0 h-6 w-6 group-hover:text-gray-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="mr-3 flex-shrink-0 h-6 w-6 group-hover:text-gray-600">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819"></path>
     </svg>
     <span class="flex-1">HOME</span>
   </a>
@@ -21,11 +24,11 @@
     <!-- <span class="bg-gray-100 group-hover:bg-gray-200 ml-3 inline-block py-0.5 px-3 text-xs font-medium rounded-full">3</span> -->
   </a>
 </nav>
-<div class="flex flex-shrink-0 border-t border-b border-gray-200 p-4">
+<!-- <div class="flex flex-shrink-0 border-t border-b border-gray-200 p-4">
   <a href="https://twitter.com/Z3r0_Gravitas" class="group block w-full flex-shrink-0" target="_blank" rel="noreferrer">
     <div class="flex items-center">
       <div>
-        <img class="inline-block h-9 w-9 rounded-full" src="/user.jpg" alt="">
+        <img class="inline-block h-9 w-9 rounded-full" src="https://pbs.twimg.com/profile_images/1642927415633780736/ERV6ervU_400x400.jpg" alt="">
       </div>
       <div class="ml-3">
         <p class="text-sm font-medium text-gray-700 group-hover:text-gray-900">Bryan Schuetz</p>
@@ -35,7 +38,7 @@
       </div>
     </div>
   </a>
-</div>
+</div> -->
 <style>
 li{
   list-style: none;
