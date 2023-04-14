@@ -27,8 +27,8 @@
 <div class="wrap grid">
   <header class="p-4  center">
     <section class="banner m-auto md:text-center">
-        <h1 class="text-2xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold ">Style Framework</h1>
-      <p class="md:text-center">An easy to work with framework for building DAI branded sites.</p>
+        <h1 class="text-4xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold ">Style Framework</h1>
+      <p class="md:text-center prose-sm mt-4">An easy to work with framework for building DAI branded sites.</p>
     </section>
   </header>
   <main class="pl-4 grid md:m-[auto]"> 
@@ -37,15 +37,15 @@
     </section>
   </main>
 {#if isBigViewport}
-  <aside class=""  in:fly="{{delay: 250, duration: 100, x: 400, y: 0, opacity: 0.5, easing: cubicInOut}}">
+  <aside class=""  in:fly="{{delay: 0, duration: 200, x: 400, y: 0, opacity: 0.5, easing: cubicInOut}}">
     <section class="">
       <Nav />
     </section>
   </aside>
 {/if}
   <footer class="p-4">
-  <section class="prose">
-    <p>Some footer stuff down here for sure.</p>
+  <section class="prose md:m-[auto] md:text-center">
+    <p class="prose-sm">Some footer stuff down here for sure.</p>
   </section>
   </footer>
 </div>

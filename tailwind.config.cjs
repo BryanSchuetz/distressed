@@ -9,7 +9,9 @@ const config = {
         Dorange: "#EBCA8E",
         Dyellow: "#FFFE97",
         Dgreen: "#C1FB95",
-        Dblue: "#BFFCEA"
+        Dblue: "#BFFCEA",
+        Dblack: "#262626",
+        Dgray: "#F6F6F6"
       }
     },
   },
