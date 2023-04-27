@@ -27,8 +27,8 @@
 <div class="wrap grid">
   <header class="p-4  center">
     <section class="banner m-auto md:text-center">
-        <h1 class="text-4xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold ">Style Framework</h1>
-      <p class="md:text-center prose-sm mt-4">An easy to work with framework for building DAI branded sites.</p>
+        <h1 class="text-4xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold ">The Distress Signal</h1>
+      <p class="md:text-center prose-sm mt-4">First we shaper our tools—then our tools shape us.</p>
     </section>
   </header>
   <main class="pl-4 grid md:m-[auto]"> 

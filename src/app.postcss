@@ -5,7 +5,7 @@
 
 body{
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  @apply bg-Dgray;
+  @apply bg-[#FCFCFC];
   @apply text-Dblack;
 }
 header{
@@ -17,8 +17,15 @@ section.prose{
 }
 main{
   grid-area: main;
-}
 
+}
+nav a:hover{
+  @apply bg-Dblack;
+  @apply text-Dpurp;
+}
+nav a:hover svg{
+  @apply text-Dpink;
+}
 footer{
   grid-area: footer;
 
