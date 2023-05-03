@@ -1,7 +1,6 @@
 <script>
   import crest from '$lib/assets/crest.jpg';
 </script>
-<img class="w-[100%]" src={crest} alt="Family Crest">
 <nav class="mt-5 bg-[#F6F6F6]" aria-label="Sidebar">
   <a href="#" class="flex items-center px-2 py-2 text-sm font-bold rounded-l-md">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="mr-3 flex-shrink-0 h-6 w-6">
