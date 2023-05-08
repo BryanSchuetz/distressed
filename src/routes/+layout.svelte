@@ -26,8 +26,8 @@
 </svelte:head>
 <div class="wrap grid">
   <header class="p-4  center">
-    <section class="banner m-auto md:text-center">
-        <h1 class="text-4xl sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold ">The Distress Signal</h1>
+    <section class="banner m-auto grid grid-cols-1 md:justify-items-center">
+        <h1 class="text-4xl inline-block sm:text-4xl md:text-5xl lg:text-7xl xl:text-8xl font-bold m-auto w-[100%] md:w-auto"><span class="block text-base md:text-2xl lg:text-3xl mb-0 relative top-[10px]">The</span> Distress Signal</h1>
       <p class="md:text-center prose-sm mt-4">First we shaper our tools—then our tools shape us.</p>
     </section>
   </header>
