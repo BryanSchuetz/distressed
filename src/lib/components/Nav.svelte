@@ -1,17 +1,17 @@
 <script>
 import alarm from '$lib/assets/alarm.png';
-let active = 'home'
+import { page } from '$app/stores';
 </script>
 
 <nav class="mt-5 rounded-tl-lg rounded-bl-lg" aria-label="Sidebar">
   <div class="alarmy" style="background-image: url({alarm});"></div>
-  <a href="/" class:active={active === 'home'} on:click="{() => active = 'home'}" class="flex items-center px-2 py-2 text-sm font-bold rounded-l-md">
+  <a href="/" class:active={$page.url.pathname === '/'} class="flex items-center px-2 py-2 text-sm font-bold rounded-l-md">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" class="mr-3 flex-shrink-0 h-6 w-6">
       <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819"></path>
-   </svg>
+    </svg>
     <span class="flex-1">HOME</span>
   </a>
-  <a href="/"  class="flex items-center px-2 py-2 text-sm font-bold rounded-md">
+  <a href="/posts/all-love-and-no-hate-tho" class:active={$page.url.pathname.includes('/posts/')}  class="flex items-center px-2 py-2 text-sm font-bold rounded-bl-lg rounded-tl-lg">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mr-3 flex-shrink-0 h-6 w-6">
       <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
     </svg>
@@ -20,8 +20,8 @@ let active = 'home'
 
     <span class="bg-gray-100 group-hover:bg-gray-200 ml-3 inline-block py-0.5 px-3 text-xs font-medium rounded-full">300</span>
   </a>
-  <a href="https://github.com/BryanSchuetz" class="flex items-center px-2 py-2 text-sm font-bold rounded-md">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3 flex-shrink-0 h-6 w-6" style=""><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+  <a href="https://github.com/BryanSchuetz" class="flex items-center px-2 py-2 text-sm font-bold rounded-bl-lg rounded-tl-lg">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-3 flex-shrink-0 h-6 w-6 mb-1" style=""><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
     <span class="flex-1">GITTYUP</span>
     <!-- <span class="bg-gray-100 group-hover:bg-gray-200 ml-3 inline-block py-0.5 px-3 text-xs font-medium rounded-full">3</span> -->
   </a>

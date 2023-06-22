@@ -22,7 +22,7 @@
 
 </script>
 <svelte:head>
-  <title>Style Framework</title>
+  <title>The Distress Signal</title>
 </svelte:head>
 <div class="wrap grid">
   <header class="p-4  center">

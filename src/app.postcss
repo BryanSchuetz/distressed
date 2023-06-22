@@ -28,11 +28,23 @@ main{
   background-size: contain;
   background-repeat: no-repeat;
 }
-nav a:hover{
+nav a{
+  transition: background .2s;
+  transition: color .2s;
+}
+nav a.active{
+  transition: background .2s;
+  transition: color .2s;
+}
+nav a.active, nav a.active:hover{
   @apply bg-Dblack;
   @apply text-Dpurp;
 }
-nav a:hover svg{
+nav a:hover{
+  @apply bg-Dgray;
+  @apply text-Dpurp;
+}
+nav a:hover svg, nav a.active svg{
   @apply text-Dpurp;
 }
 footer{
